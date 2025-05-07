@@ -1,3 +1,5 @@
+import { random } from "./random"
+
 function good(num: number) {
   let goods = ""
   let count = 0
@@ -13,4 +15,4 @@ function good(num: number) {
   console.log(goods)
 }
 
-good(10)
+good(random(2,10))
